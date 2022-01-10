@@ -10,6 +10,263 @@ This project apparently my university siakad web enaough
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>elearning undana</title>
     <link rel="stylesheet" href="undana.css">
+    <style>
+        body {
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #66cc00;
+}
+
+.header .login {
+    background-color: #008000;
+    width: 100%;
+    height: 60px;
+}
+
+.header .login p {
+    text-align: right;
+}
+
+.header .login p a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.header .login p a:hover {
+    color: #d2691e;
+}
+
+.header .pic {
+    width: 100%;
+    height: 200px;
+}
+
+.header .pic img {
+    width: 120px;
+    height: auto;
+    float: left;
+    margin: 10px 0 0 30px;
+}
+
+.header .logo {
+    text-transform: uppercase;
+    margin-top: -190px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.header .logo h2 {
+    text-decoration-line: underline;
+    font-weight: 800;
+    text-indent: -20px;
+    font-size: 30px;
+    letter-spacing: 12px;
+}
+
+.header .logo h4 {
+    font-size: 15px;
+    text-indent: -20px;
+    font-weight: 800;
+}
+
+.header .menu ul {
+    float: center;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+.header .menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pengisian {
+    background-color: #228b22;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    padding: 20px 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: auto;
+}
+
+.pengisian h1 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+.input {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input input {
+    width: 160px;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.input small {
+    display: block;
+    color: #800000;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 3px;
+    visibility: hidden;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+}
+
+.rumit {
+    background-color: #66cc00;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.rumit .gambar img {
+    width: 80px;
+    height: auto;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.rumit .dua {
+    margin-left: 100px;
+    margin-top: -50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    text-indent: -5px;
+}
+
+.rumit .dua h2 {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.rumit .dua h4 {
+    font-weight: 900;
+}
+
+.rumit .mandiri {
+    margin-left: 60px;
+    margin-top: 18px;
+    text-indent: 15px;
+}
+
+.rumit .mandiri p {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.rumit .quick {
+    margin-left: 500px;
+    margin-top: -80px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rumit .quick h4 {
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.rumit .quick ul li {
+    text-decoration: none;
+    display: flex;
+}
+
+.rumit .quick ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rumit .media {
+    margin-left: 700px;
+    margin-top: -100px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rumit .media h4 {
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.rumit .media ul li {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+}
+
+.rumit .media ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rumit .contact {
+    margin-left: 900px;
+    margin-top: -115px;
+}
+
+.rumit .contact h4 {
+    margin-bottom: 30px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.rumit .contact ul li {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+}
+
+.rumit .contact ul li a {
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #008000;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerr p a {
+    color: #008000;
+}
+
+    </style>
 </head>
 
 <body>
@@ -100,266 +357,4 @@ This project apparently my university siakad web enaough
 </body>
 
 </html>
-**here are the css codes**
-    * {
-        padding: 0;
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    body {
-        background-color: #f5f5f5;
-    }
-    
-    .header {
-        background-color: #66cc00;
-    }
-    
-    .header .login {
-        background-color: #008000;
-        width: 100%;
-        height: 60px;
-    }
-    
-    .header .login p {
-        text-align: right;
-    }
-    
-    .header .login p a {
-        text-decoration: none;
-        color: #ffffff;
-        transition: .3s;
-    }
-    
-    .header .login p a:hover {
-        color: #d2691e;
-    }
-    
-    .header .pic {
-        width: 100%;
-        height: 200px;
-    }
-    
-    .header .pic img {
-        width: 120px;
-        height: auto;
-        float: left;
-        margin: 10px 0 0 30px;
-    }
-    
-    .header .logo {
-        text-transform: uppercase;
-        margin-top: -190px;
-        margin-left: 0;
-        margin-bottom: 0;
-    }
-    
-    .header .logo h2 {
-        text-decoration-line: underline;
-        font-weight: 800;
-        text-indent: -20px;
-        font-size: 30px;
-        letter-spacing: 12px;
-    }
-    
-    .header .logo h4 {
-        font-size: 15px;
-        text-indent: -20px;
-        font-weight: 800;
-    }
-    
-    .header .menu ul {
-        float: center;
-    }
-    
-    .header .menu ul li {
-        display: inline-block;
-        padding: 30px;
-        margin-left: 10px;
-    }
-    
-    .header .menu ul li a {
-        color: #ffffff;
-        text-decoration: none;
-    }
-    
-    .pengisian {
-        background-color: #228b22;
-        border-radius: 5px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-        width: 300px;
-        padding: 20px 30px;
-        margin-top: 50px;
-        margin-left: 10px;
-        height: auto;
-    }
-    
-    .pengisian h1 {
-        text-align: center;
-        margin: 0 0 20px;
-        font-size: 24px;
-    }
-    
-    .input {
-        margin-bottom: 20px;
-        position: relative;
-    }
-    
-    .input label {
-        display: block;
-        margin-bottom: 10px;
-    }
-    
-    .input input {
-        width: 160px;
-        height: 40px;
-        padding: 0 15px;
-        background-color: #ffffff;
-        border: 2px solid #ffffff;
-        border-radius: 5px;
-    }
-    
-    .input small {
-        display: block;
-        color: #800000;
-        font-weight: bold;
-        font-size: 11px;
-        padding-top: 3px;
-        visibility: hidden;
-    }
-    
-    button {
-        width: 100px;
-        height: 40px;
-        background-color: #ffffff;
-        border: 1px solid #fff;
-        border-radius: 5px;
-        cursor: pointer;
-        display: block;
-        font-size: 16px;
-    }
-    
-    .rumit {
-        background-color: #66cc00;
-        margin-top: 50px;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        margin-bottom: 0;
-        padding-top: 50px;
-        padding-bottom: 20px;
-    }
-    
-    .rumit .gambar img {
-        width: 80px;
-        height: auto;
-        margin-top: -30px;
-        margin-left: 30px;
-    }
-    
-    .rumit .dua {
-        margin-left: 100px;
-        margin-top: -50px;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-size: 10px;
-        text-indent: -5px;
-    }
-    
-    .rumit .dua h2 {
-        text-decoration: underline;
-        font-weight: 900;
-    }
-    
-    .rumit .dua h4 {
-        font-weight: 900;
-    }
-    
-    .rumit .mandiri {
-        margin-left: 60px;
-        margin-top: 18px;
-        text-indent: 15px;
-    }
-    
-    .rumit .mandiri p {
-        color: #ffffff;
-        font-weight: 500;
-    }
-    
-    .rumit .quick {
-        margin-left: 500px;
-        margin-top: -80px;
-        text-decoration: none;
-        color: #ffffff;
-    }
-    
-    .rumit .quick h4 {
-        margin-bottom: 30px;
-        font-weight: lighter;
-    }
-    
-    .rumit .quick ul li {
-        text-decoration: none;
-        display: flex;
-    }
-    
-    .rumit .quick ul li a {
-        color: #ffffff;
-        text-decoration: none;
-    }
-    
-    .rumit .media {
-        margin-left: 700px;
-        margin-top: -100px;
-        text-decoration: none;
-        color: #ffffff;
-    }
-    
-    .rumit .media h4 {
-        margin-bottom: 30px;
-        font-weight: lighter;
-    }
-    
-    .rumit .media ul li {
-        color: #ffffff;
-        text-decoration: none;
-        display: flex;
-    }
-    
-    .rumit .media ul li a {
-        text-decoration: none;
-        color: #ffffff;
-    }
-    
-    .rumit .contact {
-        margin-left: 900px;
-        margin-top: -115px;
-    }
-    
-    .rumit .contact h4 {
-        margin-bottom: 30px;
-        font-weight: lighter;
-        color: #ffffff;
-    }
-    
-    .rumit .contact ul li {
-        color: #ffffff;
-        text-decoration: none;
-        display: flex;
-    }
-    
-    .rumit .contact ul li a {
-        color: #ffffff;
-    }
-    
-    .footer {
-        background-color: #008000;
-        text-align: center;
-        padding: 20px;
-    }
-    
-    .footerr p a {
-        color: #008000;
-    }
-    
     **Hey guys if you find those codes and I am really sure that that one has very much bugs, I am begged for your kindness to correct them right. Anyway, I am just begginer so your help will be very mean to me**
