@@ -9,7 +9,6 @@ This project apparently my university siakad web enaough
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>elearning undana</title>
-    <link rel="stylesheet" href="undana.css">
     <style>
         body {
     background-color: #f5f5f5;
