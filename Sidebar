@@ -1,0 +1,95 @@
+I made this based on internet tutorials. 
+Html codes:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="sidebar.css">
+
+</head>
+
+<body>
+    <h1> <a href="">Finewine</a></h1>
+    <div class="sidebar">
+        <ul>
+            <li>
+                <a href="">Beranda</a>
+            </li>
+            <li>
+                <a href="">Berita</a>
+            </li>
+            <li>
+                <a href="">Notifikasi</a>
+            </li>
+            <li>
+                <a href="">Profil Anda</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+css:
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: #f5fffa;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+h1 a:hover {
+    color: #00ff00;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    transition: .3s;
+}
+
+.sidebar ul li a {
+    color: #00ff00;
+}
+
+.sidebar ul li a:hover {
+    color: #000080;
+}
+
+.sidebar ul li {
+    padding: 24px;
+    transition: .3s;
+    transition-property: background-color;
+}
+
+.sidebar ul li:hover {
+    background-color: #00ffff;
+}
+
+.sidebar ul li a {
+    transition: .3s;
+}
